@@ -59,19 +59,19 @@ public class HitungGajiFragment extends Fragment {
                         int jam = Integer.parseInt(jamKerjaString);
                         int gender = (checkID == R.id.radioLaki_Laki) ? GajiKaryawan.MALE : GajiKaryawan.FEMALE;
                         if (tidakLembur.isChecked()){
-                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender,  200);
+                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender,  200000);
                             mListener.onCalculateButtonGajiClicked(gajiKaryawan.getIndex());
 
                         }
                         else if (sedikitLembur.isChecked()){
 
-                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender, 300);
+                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender, 300000);
                             mListener.onCalculateButtonGajiClicked(gajiKaryawan.getIndex());
 
                         }
                         else if (seringLembur.isChecked()){
 
-                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender,  500);
+                            GajiKaryawan gajiKaryawan = new GajiKaryawan(jam,gender,  500000);
                             mListener.onCalculateButtonGajiClicked(gajiKaryawan.getIndex());
                         }
                     }

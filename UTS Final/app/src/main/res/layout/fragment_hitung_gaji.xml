@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Level Aktivitas fisik"
+            android:text="Lembur tambahan"
             android:textColor="#000000"
             android:textSize="15dp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -118,19 +118,19 @@
                 android:id="@+id/radioTidakLembur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kurang Aktif (Tidak Pernah lembur)" />
+                android:text="Tidak Pernah lembur" />
 
             <RadioButton
                 android:id="@+id/radioSedikitLembur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sedikit Aktif (1 atau 2 kali seminggu Lembur)" />
+                android:text="1 atau 2 kali seminggu Lembur" />
 
             <RadioButton
                 android:id="@+id/radioCukupLembur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cukup Aktif (4 Kali seminggu Lembur)" />
+                android:text="4 Kali seminggu Lembur" />
 
         </RadioGroup>
 

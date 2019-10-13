@@ -23,8 +23,8 @@ public class GajiKaryawan {
 
     private float hitung() {
         switch (gender){
-            case MALE: return (float) ((1000 * jam) * lembur);
-            case FEMALE: return (float) ((500 * jam) * lembur);
+            case MALE: return (float) ((100000 * jam) + lembur);
+            case FEMALE: return (float) ((50000 * jam) + lembur);
             default: return  0f;
         }
 
