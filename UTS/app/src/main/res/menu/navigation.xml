@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_kubus"
+        android:title="Kubus"
+        android:icon="@drawable/kubus" />
+    <item android:id="@+id/action_balok"
+        android:title="Balok"
+        android:icon="@drawable/panjang" />
+    <item android:id="@+id/action_tabung"
+        android:title="Tabung"
+        android:icon="@drawable/tabung" />
+
+</menu>
